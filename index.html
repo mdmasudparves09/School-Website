@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sunrise High School</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      color: #333;
+    }
+
+    header {
+      background: #004aad;
+      color: #fff;
+      padding: 20px;
+    }
+
+    header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    header h1 {
+      font-size: 28px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1596495577886-d920f1fb7238?fit=crop&w=1200&q=80') center/cover no-repeat;
+      color: #fff;
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 20px;
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .section h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #004aad;
+    }
+
+    .about, .news, .contact {
+      margin-bottom: 40px;
+    }
+
+    .news-item {
+      background: #f4f4f4;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-left: 5px solid #004aad;
+    }
+
+    footer {
+      background: #222;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .hero h2 {
+        font-size: 32px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Sunrise High School</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to Sunrise High School</h2>
+    <p>Empowering students for a bright future.</p>
+  </section>
+
+  <section class="section about">
+    <h2>About Us</h2>
+    <p>
+      Sunrise High School is dedicated to providing quality education and a nurturing environment for students. Our experienced teachers, modern facilities, and diverse programs ensure holistic development for all.
+    </p>
+  </section>
+
+  <section class="section news">
+    <h2>Latest News</h2>
+    <div class="news-item">
+      <h3>Science Fair 2025</h3>
+      <p>Join us for the annual science fair on July 15th. Students will showcase innovative projects and compete for prizes.</p>
+    </div>
+    <div class="news-item">
+      <h3>Summer Sports Camp</h3>
+      <p>Registrations open for our summer sports camp starting August 1st. Activities include basketball, swimming, and soccer.</p>
+    </div>
+  </section>
+
+  <section class="section contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@sunrisehighschool.com</p>
+    <p>Phone: (123) 456-7890</p>
+    <p>Address: 123 Main Street, Cityville</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Sunrise High School. All rights reserved.
+  </footer>
+</body>
+</html>
